@@ -1,0 +1,100 @@
+[
+    {
+        "type": "html/css",
+        "img": "HTML_1.jpg",
+        "title": "완성된 웹사이트로 배우는 HTML&CSS 디자인",
+        "author": "Mana",
+        "price": "19,800원"
+    },
+    {
+        "type": "html/css",
+        "img": "HTML_2.jpg",
+        "title": "Do it! HTML+CSS+자바스크립트 웹 표준의 정석",
+        "author": "고경희",
+        "price": "27,000원"
+    },
+    {
+        "type": "html/css",
+        "img": "HTML_3.jpg",
+        "title": "코딩 자율학습 HTML + CSS + 자바스크립트",
+        "author": "김기수",
+        "price": "24,300원"
+    },
+    {
+        "type": "java",
+        "img": "Java_1.jpg",
+        "title": "Java의 정석(3판)",
+        "author": "남궁성",
+        "price": "27,000원"
+    },
+    {
+        "type": "java",
+        "img": "Java_2.jpg",
+        "title": "이펙티브 자바 3/E",
+        "author": "조슈아 블로크",
+        "price": "31,500원"
+    },
+    {
+        "type": "java",
+        "img": "Java_3.jpg",
+        "title": "혼자 공부하는 자바",
+        "author": "신용권",
+        "price": "21,600원"
+    },
+    {
+        "type": "java",
+        "img": "Java_4.jpg",
+        "title": "코딩은 처음이라 with 자바",
+        "author": "유동환",
+        "price": "18,000원"
+    },
+    {
+        "type": "python",
+        "img": "Python_1.jpg",
+        "title": "Do it! 점프 투 파이썬",
+        "author": "박응용",
+        "price": "16,920원"
+    },
+    {
+        "type": "python",
+        "img": "Python_2.jpg",
+        "title": "파이썬 알고리즘 인터뷰",
+        "author": "박상길",
+        "price": "34,200원"
+    },
+    {
+        "type": "python",
+        "img": "Python_3.jpg",
+        "title": "엑셀이 편해지는 파이썬",
+        "author": "펠릭스 춤슈타인",
+        "price": "25,200원"
+    },
+    {
+        "type": "python",
+        "img": "Python_4.jpg",
+        "title": "파이썬 클린 코드",
+        "author": "마리아노 아나야",
+        "price": "25,200원"
+    },
+    {
+        "type": "sql",
+        "title": "데이터 분석을 위한 SQL 레시피",
+        "img": "SQL_1.jpg",
+        "author": "가사키 나가토",
+        "price": "32,400원"
+    },
+    {
+        "type": "sql",
+        "title": "SQL 첫걸음",
+        "img": "SQL_2.jpg",
+        "author": "아사이 아츠시",
+        "price": "19,800원"
+    },
+    {
+        "type": "sql",
+        "title": "김상형의 SQL 정복",
+        "img": "SQL_3.jpg",
+        "author": "김상형",
+        "price": "35,100원"
+    }
+]

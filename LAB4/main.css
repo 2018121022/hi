@@ -1,0 +1,365 @@
+@media all and (max-width: 480px) {
+    body {
+        width: 80%;
+        margin-bottom: 3.5rem;
+    }
+
+    #header {
+        font-size: 2.5rem;
+        margin: 2rem 0;
+        text-shadow: -0.25rem 0.25rem 0.5rem dimgrey;    
+    }
+
+    @keyframes movingimage {
+        0%{ margin-left:8rem; }
+        100%{ margin-left: 0; }
+    }
+
+    nav {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .navi {
+        font-size: 1.5rem;
+    }
+
+    #navi_index {
+        border-top: solid 0.2rem red;
+        border-bottom: solid 0.2rem red;
+        padding: 0.2rem 0;
+    }
+
+    hr {
+        margin: 1rem 0;
+        border-bottom: 0;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        padding-bottom: 0.4rem;
+        border-bottom: solid 0.1rem black;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+
+    .item {
+        width: 16rem;
+        height: 16rem;
+        border: solid 0.1rem black;
+        margin: 1.5rem auto;    
+    }
+
+    #item_rotate {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    #item_twice {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .content {
+        font-size: 1.25rem;
+    }
+
+    .input_box {
+        border: solid 0.125rem rgb(247, 212, 212);
+        border-radius: 0.5rem;
+        height: 1.25rem;
+        width: 12rem;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .button {
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2rem;
+        padding: 0.25rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        border: solid 0.125rem rgb(247, 212, 212);
+    }
+
+}
+
+@media all and (min-width: 481px) and (max-width: 800px) {
+    body {
+        width: 85%;
+        margin-bottom: 3.5rem;
+    }
+
+    #header {
+        font-size: 2.8rem;
+        margin: 2rem 0;
+        text-shadow: -0.25rem 0.25rem 0.5rem dimgrey;    
+    }
+
+    @keyframes movingimage {
+        0%{ margin-left: 6rem; }
+        100%{ margin-left: 0; }
+    }
+
+    nav {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .navi {
+        font-size: 1.8rem;
+    }
+
+    #navi_index {
+        border-top: solid 0.25rem red;
+        border-bottom: solid 0.25rem red;
+        padding: 0.3rem 0;
+    }
+
+    hr {
+        margin: 1.2rem 0;
+        border-bottom: 0;
+    }
+
+    .title {
+        font-size: 1.4rem;
+        padding-bottom: 0.5rem;
+        border-bottom: solid 0.1rem black;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+
+    .item {
+        width: 12rem;
+        height: 12rem;
+        border: solid 0.1rem black;
+        margin: 1.5rem;    
+    }
+
+    #item_rotate {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    #item_twice {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .content {
+        margin-left:3rem;
+        font-size: 1.25rem;
+    }
+
+    .input_box {
+        border: solid 0.125rem rgb(247, 212, 212);
+        border-radius: 0.5rem;
+        height: 1.25rem;
+        width: 12rem;
+        font-size: 1rem;
+    }
+    
+    .button {
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2rem;
+        padding: 0.25rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        border: solid 0.125rem rgb(247, 212, 212);
+    }
+
+}
+
+@media all and (min-width: 801px) {
+    body {
+        width: 1020px;
+        margin-bottom: 4rem;
+    }
+
+    #header {
+        font-size: 4rem;
+        margin: 2rem 0;
+        text-shadow: -0.25rem 0.25rem 0.5rem dimgrey;    
+    }
+
+    @keyframes movingimage {
+        0%{ margin-left: 12rem; }
+        100%{ margin-left: 0; }
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .navi {
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+
+    #navi_index {
+        border-top: solid 0.22rem red;
+        border-bottom: solid 0.22rem red;
+        padding: 0.22rem 0;
+    }
+
+    hr {
+        margin: 1.5rem 0;
+        border-bottom: 0;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: solid 0.1rem black;
+        margin: 2rem 0;
+    }
+
+    .item {
+        width: 12rem;
+        height: 12rem;
+        border: solid 0.1rem black;
+        margin: 1.8rem;    
+    }
+
+    #item_rotate {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    #item_twice {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    #col {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+        column-rule: solid 0.1rem black;
+        column-gap: 2rem;
+    }
+
+    .content {
+        margin-left:3rem;
+        font-size: 1.25rem;
+    }
+
+    .input_box {
+        border: solid 0.125rem rgb(247, 212, 212);
+        border-radius: 0.5rem;
+        height: 1.25rem;
+        width: 12rem;
+        font-size: 1rem;
+    }
+    
+    .button {
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2rem;
+        padding: 0.25rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        border: solid 0.125rem rgb(247, 212, 212);
+    }
+}
+
+* {
+    background-color:antiquewhite;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    font-family: fantasy;
+    animation-duration: 2s;
+    animation-name: movingimage;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial;
+}
+
+a { 
+    text-decoration:none; color:inherit 
+}
+
+hr {
+    border: solid;
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Arial;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+}
+
+#item_rotate {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: transform 2s;
+}
+
+#item_rotate:hover {
+    transform: rotate(360deg); 
+}
+
+#item_twice {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: transform 2s;
+}
+
+#item_twice:hover {
+    transform: scale(2, 2); 
+}
+
+.content {
+    font-family: Arial;
+}
+
+.input_box {
+    background-color: rgb(255, 255, 255);
+}
+
+.button {
+    font-family: Arial;
+    color: rgb(156, 156, 156);
+}
